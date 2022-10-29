@@ -243,6 +243,9 @@ if (e === "1"){
                         .then((g) => {
                             console.log(consolecolor("#3c00ff", "#07d6fa")(`[+] Template link: https://discord.new/${g.code}`))
                             const slt = q.question("Press the enter key to return to the menu")
+                            if (slt){
+                                main()
+                            }
                         })
                         .catch(() => console.log(consolecolor("#3c00ff", "#07d6fa")(`[-] I can't create a template for this server. Maybe there is already one.`)))
                     }
