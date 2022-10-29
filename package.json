@@ -1,0 +1,19 @@
+{
+  "name": "backup-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Sans",
+  "license": "ISC",
+  "dependencies": {
+    "discord-backup": "^3.2.1",
+    "discord.js-selfbot-v13": "^2.8.8",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
+    "gradient-string": "^2.0.2",
+    "readline-sync": "^1.4.10"
+  }
+}
